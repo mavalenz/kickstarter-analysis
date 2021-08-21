@@ -7,10 +7,10 @@
 ## Analysis and Challenges
 
 ### I first started my analysis by creating a pivot table filtered by parent category *theater* and years to see the trend over time. The values I analyzed were 3 categories of outcomes; **successful**, **failed**, or **canceled**. From the pivot table I then created a line chart to display a visual to see the trend in outcomes over time breaking it down by months.
-![Theater_Outcomes_vs_Launch](C:\Users\marav\Documents\Columbia Data Analytics Bootcamp\Module 1\Challenge 1\Resources\Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Next, I created another line chart showing *outcomes based on goal*. To create this chart I first created a table with goal ranges, ranging from *less than 1000* up to *greater than 50000*. From here I used the **COUNTIFS** function to pull together the total number of **successful**, **failed**, or **canceled** plays in relation to the goal amount. Once I captured all these values I found the percentage values of each category by comparing the total number of each outcome category of plays by the total number of projects. From this point I created the line chart (below) which shows **success**, **failure**, or **canceled** play trends depending on the fundraising goals.
-![Outcomes_vs_Goals](C:\Users\marav\Documents\Columbia Data Analytics Bootcamp\Module 1\Challenge 1\Resources\Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
 
 ### During my analysis I faced a few challenges while developing both line charts. The first challenge I faced was while putting together the pivot table for the *Theater Outcomes Based on Launch Date*, was breaking down the years to months. To overcome this challenge I referred back to a previous module 1 exercise for guidance. By doing so I found that I needed to add another field into rows which was the *Date Created Conversion* dataset.
 ### The second challenge I faced was when performing the **COUNTIFS* function to calculate the number of *successful*, *failed*, or *canceled* plays. It was a challenge when there was a range to look up (e.g. 20000 to 24999). To overcome this challenge I watched the hint tutorial provided in the module and learned how to account for a multiple conditions using the countifs function.
